@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build-content.mjs",
-    "test": "node tests/browser-smoke.cjs"
+    "test": "node tests/browser-smoke.cjs && node tests/branching.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"
