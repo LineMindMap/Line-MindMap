@@ -27,3 +27,9 @@ Primary guidance: [Google favicon requirements](https://developers.google.com/se
 ## Flowchart storage
 
 Flowcharts open in a separate workspace from the existing mind map/table document. They save in the current browser under `linemindmap:flowchart:v1`; they do not currently sync to Google Drive. Download JSON for portable editable backups. PNG is rendered at up to 3× with memory limits; SVG is scalable; PDF uses a print-ready tab. Existing mind map/table save behavior is unchanged.
+
+## Flowchart branching controls
+
+Flowchart is available in both the first-time workspace chooser and the Add a new page chooser. It opens a separate tab and retains its existing local data. Use Tab on a selected cell or in its text editor to add a connected child. Ctrl+Enter adds a sibling sharing the current parent; for a root it adds another root. Ctrl+Tab is also handled if the browser delivers it, but most browsers reserve that shortcut for tab switching. Shift+Tab keeps normal focus navigation, and Escape leaves the text editor.
+
+Straight branches are the default. Direction selects top-to-bottom or left-to-right and arranges the diagram. Arrange rebuilds a spaced spanning forest without removing any connections; cycles and additional cross-links are retained. Manual dragging remains available. Click an arrow to edit its label, or use Insert cell on this arrow to split it. The branching template uses generic study placeholders, not clinical instructions or reproduced study data.
