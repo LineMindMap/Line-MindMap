@@ -143,7 +143,7 @@ body.table-mode #tablebar{display:flex}
 .page-choice{max-width:720px}
 .page-choice h2{margin-bottom:5px}
 .page-choice-copy{margin:0 0 16px!important}
-.choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.box:has(.page-choice),.box:has(.workspace-choice){max-width:760px}.choice-grid .page-choice-btn{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start}.choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .page-choice-btn{border:1px solid var(--bd);background:#fff;border-radius:10px;padding:17px 15px;text-align:left;cursor:pointer;transition:.15s}
 .page-choice-btn:hover{border-color:var(--ic);background:#f8fcfe;transform:translateY(-1px);box-shadow:0 5px 16px #0000000b}
 .page-choice-btn .choice-icon{width:36px;height:36px;display:grid;place-items:center;border-radius:9px;background:var(--tb);color:var(--ich);font-size:20px;font-weight:800;margin-bottom:10px}
