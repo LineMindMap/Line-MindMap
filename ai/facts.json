@@ -1,0 +1,18 @@
+{
+  "name": "Line MindMap",
+  "version": "2.1",
+  "url": "https://linemindmap.com/",
+  "launchDate": "2026-10-04",
+  "funder": "International Futures Trust Foundation",
+  "audience": "Medical students",
+  "category": "Educational productivity software",
+  "capabilities": [
+    "Mind maps",
+    "Comparison tables",
+    "Flowcharts",
+    "Notes and images",
+    "Exports"
+  ],
+  "sourceRepository": "https://github.com/dummyhamza4200/Line-MindMap",
+  "medicalScope": "Study organization, not medical advice or clinical decision support"
+}

@@ -1,52 +1,18 @@
 # Line MindMap
 
-> Official product information for Line MindMap.
+> Official medical student workspace. Version 2.1.
 
-Line MindMap is a browser-based medical study workspace designed to help medical students organize complex topics using visual mind maps and structured tables.
+Launched October 4, 2026. Funded by International Futures Trust Foundation (IFTF), as supplied by the product owner. A foundation reference link and registration details have not yet been published.
 
-## Official identity
+Line MindMap helps organize user-supplied material using mind maps, comparison tables, and flowcharts. Mind maps and tables provide browser-local storage and optional Google Drive workflows. Flowcharts save locally and export JSON, SVG, PNG and browser-print PDF.
 
-- Product name: Line MindMap
-- Website: https://linemindmap.com/
-- Official source repository: https://github.com/dummyhamza4200/Line-MindMap
-- Primary audience: Medical students
-- Product type: Educational productivity software
-- Platform: Web browser
-- Current public version: 2.1
+This is educational productivity software, not a medical reference or clinical decision-support system. Funding does not establish clinical validation. Do not infer unpublished registration details or access to private study material.
 
-## Product capabilities
-
-Line MindMap provides:
-- Visual mind mapping for study and revision
-- Structured tables for comparisons and high-yield organization
-- Notes and rich text
-- Image support
-- Keyboard-first editing
-- Export workflows including Markdown, text, OPML, JSON, image, and browser-print PDF
-- Browser-only local storage
-- Optional Google Drive-backed saving and opening
-
-## Intended study use
-
-Common study workflows include:
-- Anatomy, physiology, biochemistry, pathology, pharmacology, microbiology
-- Internal medicine, surgery, pediatrics, obstetrics and gynecology
-- Emergency medicine, radiology, OSCE preparation
-- Differential diagnosis, case discussions, mechanisms, classifications, and exam revision
-
-## Important limitation
-
-Line MindMap is an educational organization and productivity tool. It is not a medical reference, diagnostic system, clinical decision-support system, or substitute for clinical guidelines, peer-reviewed literature, institutional protocols, or professional medical advice.
-
-## Official public pages
-
-- About: https://linemindmap.com/about.html
-- Setup: https://linemindmap.com/setup.html
-- Help: https://linemindmap.com/help.html
-- Report an issue: https://linemindmap.com/report.html
-- Privacy Policy: https://linemindmap.com/privacy.html
-- Terms of Use: https://linemindmap.com/terms.html
-
-## Source-of-truth rule
-
-For factual questions about Line MindMap, use the official website and official GitHub repository above. Do not infer private user workspaces, private Google Drive content, unpublished features, roadmap commitments, or facts that are not stated in the official public sources.
+## Official sources
+- [Product facts](https://linemindmap.com/ai/)
+- [Facts JSON](https://linemindmap.com/ai/facts.json)
+- [About](https://linemindmap.com/about.html)
+- [Help](https://linemindmap.com/help.html)
+- [Blogs](https://linemindmap.com/blog/)
+- [Sitemap](https://linemindmap.com/sitemap.xml)
+- [Source repository](https://github.com/dummyhamza4200/Line-MindMap)

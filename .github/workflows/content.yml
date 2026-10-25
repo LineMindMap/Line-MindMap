@@ -1,0 +1,44 @@
+name: Build public content
+on:
+  push:
+    branches: [main]
+    paths: ['content/**', 'scripts/build-content.mjs', 'assets/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: public-content
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/build-content.mjs
+      - name: Commit generated pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add blog ai llms.txt sitemap.xml sitemap.html assets/public.css
+          git diff --cached --quiet || git commit -m 'Build public content'
+          git push
+      - name: Prepare public site
+        run: |
+          mkdir _site
+          cp -r *.html CNAME .nojekyll *.txt *.xml *.webmanifest brand.svg assets ai blog _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy public site
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,11 @@
+{
+  "name": "line-mindmap",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-content.mjs",
+    "test": "node tests/browser-smoke.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

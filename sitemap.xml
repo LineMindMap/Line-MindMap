@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://linemindmap.com/</loc></url>
-  <url><loc>https://linemindmap.com/setup.html</loc></url>
-  <url><loc>https://linemindmap.com/help.html</loc></url>
-  <url><loc>https://linemindmap.com/report.html</loc></url>
-  <url><loc>https://linemindmap.com/privacy.html</loc></url>
-  <url><loc>https://linemindmap.com/terms.html</loc></url>
-  <url><loc>https://linemindmap.com/about.html</loc></url>
-</urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"><url><loc>https://linemindmap.com/</loc></url>
+<url><loc>https://linemindmap.com/about.html</loc></url>
+<url><loc>https://linemindmap.com/setup.html</loc></url>
+<url><loc>https://linemindmap.com/help.html</loc></url>
+<url><loc>https://linemindmap.com/report.html</loc></url>
+<url><loc>https://linemindmap.com/privacy.html</loc></url>
+<url><loc>https://linemindmap.com/terms.html</loc></url>
+<url><loc>https://linemindmap.com/ai/</loc></url>
+<url><loc>https://linemindmap.com/blog/</loc></url>
+<url><loc>https://linemindmap.com/flowchart.html</loc></url>
+<url><loc>https://linemindmap.com/sitemap.html</loc></url>
+<url><loc>https://linemindmap.com/blog/anatomy-mind-maps/</loc><lastmod>2026-10-25</lastmod><image:image><image:loc>https://linemindmap.com/assets/anatomy-mind-map.png</image:loc></image:image></url>
+<url><loc>https://linemindmap.com/blog/comparison-tables/</loc><lastmod>2026-10-25</lastmod><image:image><image:loc>https://linemindmap.com/assets/comparison-study-table.png</image:loc></image:image></url>
+<url><loc>https://linemindmap.com/blog/medical-learning-flowcharts/</loc><lastmod>2026-10-25</lastmod><image:image><image:loc>https://linemindmap.com/assets/medical-learning-flowchart.png</image:loc></image:image></url>
+<url><loc>https://linemindmap.com/blog/notes-and-revision/</loc><lastmod>2026-10-25</lastmod><image:image><image:loc>https://linemindmap.com/assets/notes-and-revision.png</image:loc></image:image></url>
+<url><loc>https://linemindmap.com/blog/pathomechanism-sequences/</loc><lastmod>2026-10-25</lastmod><image:image><image:loc>https://linemindmap.com/assets/pathomechanism-sequence.png</image:loc></image:image></url></urlset>
