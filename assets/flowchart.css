@@ -15,3 +15,6 @@
 #edge-options{padding-top:1px}
 #remove-edge-label{color:#a64450}
 #remove-edge-label:hover{background:#fff0f1}
+
+.edge-label.placeholder{cursor:text}
+.edge-label.placeholder .edge-label-bg{stroke-dasharray:3 2}
