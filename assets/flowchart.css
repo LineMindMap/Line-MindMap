@@ -18,3 +18,17 @@
 
 .edge-label.placeholder{cursor:text}
 .edge-label.placeholder .edge-label-bg{stroke-dasharray:3 2}
+
+/* Connector-label positioning and editing polish */
+.edge-label{cursor:grab;touch-action:none}
+.edge-label:active{cursor:grabbing}
+.edge-label-bg{stroke-linejoin:round}
+.edge-label.is-draft .edge-label-bg{filter:drop-shadow(0 1px 2px rgba(217,119,6,.18))}
+.edge-label.is-committed .edge-label-bg{filter:drop-shadow(0 2px 4px rgba(15,118,110,.16))}
+.edge-label-toolbar{pointer-events:all}
+#edge-position{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+#label-t{display:block;width:100%;margin:8px 0 4px;padding:0;border:0;accent-color:var(--blue);cursor:pointer}
+.label-nudge{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;align-items:center;margin:8px 0}
+.label-nudge button{min-width:0;padding:6px 2px;font-size:13px;line-height:1.1}
+.label-nudge #label-center{font-size:11px;padding:7px 3px}
+.label-help{font-size:11px;line-height:1.45;margin:8px 0 0;color:#607580}
