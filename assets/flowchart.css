@@ -28,7 +28,8 @@
 .edge-label-toolbar{pointer-events:all}
 #edge-position{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
 #label-t{display:block;width:100%;margin:8px 0 4px;padding:0;border:0;accent-color:var(--blue);cursor:pointer}
-.label-nudge{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;align-items:center;margin:8px 0}
-.label-nudge button{min-width:0;padding:6px 2px;font-size:13px;line-height:1.1}
-.label-nudge #label-center{font-size:11px;padding:7px 3px}
+.label-nudge{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-areas:". up ." "left center right" ". down .";gap:4px;align-items:center;margin:8px 0;max-width:180px}
+.label-nudge button{min-width:0;padding:7px 2px;font-size:13px;line-height:1.1}
+#label-up{grid-area:up}#label-left{grid-area:left}#label-center{grid-area:center}#label-right{grid-area:right}#label-down{grid-area:down}
+.label-nudge #label-center{font-size:11px;padding:8px 3px}
 .label-help{font-size:11px;line-height:1.45;margin:8px 0 0;color:#607580}
