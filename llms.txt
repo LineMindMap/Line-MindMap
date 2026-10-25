@@ -2,7 +2,7 @@
 
 > Official medical student workspace. Version 2.1.
 
-Launched October 4, 2026. Funded by International Futures Trust Foundation (IFTF), as supplied by the product owner. A foundation reference link and registration details have not yet been published.
+Launched October 4, 2026.
 
 Line MindMap helps organize user-supplied material using mind maps, comparison tables, and flowcharts. Mind maps and tables provide browser-local storage and optional Google Drive workflows. Flowcharts save locally and export JSON, SVG, PNG and browser-print PDF.
 
@@ -15,4 +15,4 @@ This is educational productivity software, not a medical reference or clinical d
 - [Help](https://linemindmap.com/help.html)
 - [Blogs](https://linemindmap.com/blog/)
 - [Sitemap](https://linemindmap.com/sitemap.xml)
-- [Source repository](https://github.com/dummyhamza4200/Line-MindMap)
+- [Source repository](https://github.com/LineMindMap/Line-MindMap)
