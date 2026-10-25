@@ -69,7 +69,7 @@ canvas.addEventListener('contextmenu',e=>{const handle=e.target.closest('[data-a
 canvas.addEventListener('dblclick',e=>{const n=e.target.closest('[data-node]');if(n)openEditor(n.dataset.node,e.clientX,e.clientY)});
 canvas.addEventListener('wheel',e=>{e.preventDefault();const r=canvas.getBoundingClientRect();zoom(Math.exp(-e.deltaY*.001),e.clientX-r.left,e.clientY-r.top)},{passive:false});
 $('#edit-text').oninput=()=>{if(!editing)return;const n=model.nodes.find(x=>x.id===editing.id)||model.edges.find(x=>x.id===editing.id);if(!n)return;n.text=$('#edit-text').value.slice(0,n.from?120:600);if(n.from)n.labelStatus='draft';render();persist()};
-$('#save-text').onclick=()=>closeEditor(true);$('#cancel-text').onclick=()=>closeEditor(false);
+$('#save-text').onclick=()=>closeEditor(true);$('#cancel-text').onclick=()=>closeEditor(false);$('#cancel-text-exit').onclick=()=>closeEditor(false);
 $('#edit-text').onkeydown=e=>{const n=editing&&(model.nodes.find(x=>x.id===editing.id)||model.edges.find(x=>x.id===editing.id));if(e.key==='Escape'){e.preventDefault();closeEditor(false)}else if(e.key==='Enter'&&n?.from&&!e.shiftKey){e.preventDefault();closeEditor(true)}else if(e.key==='Enter'&&!n?.from&&(e.ctrlKey||e.metaKey)){e.preventDefault();closeEditor(true)}};
 $('#context-bold').onclick=()=>{const n=model.nodes.find(x=>x.id===selected);if(!n)return;n.bold=!n.bold;commit();inspector();render()};
 $('#font-smaller').onclick=()=>{const n=model.nodes.find(x=>x.id===selected);if(!n)return;n.fontSize=Math.max(12,(n.fontSize||18)-2);commit();inspector();render()};
