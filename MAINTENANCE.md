@@ -18,7 +18,7 @@ Install Node 22 or newer, run `npm install`, and have Google Chrome installed. T
 2. Submit `https://linemindmap.com/sitemap.xml` in Google Search Console and Bing Webmaster Tools. Use the relevant verified site account for other search engines such as Baidu. This code does not submit to external webmaster accounts.
 3. Request a homepage recrawl in Google Search Console. Search engines and WhatsApp may retain an older title/image until their caches refresh. The repository cannot force those caches to update or guarantee a ranking.
 4. The HTML site map is `/sitemap.html`, the public AI profile is `/ai/`, and machine-readable versions are `/llms.txt` and `/ai/facts.json`. Crawlers may use them, but inclusion in an AI answer is not guaranteed.
-5. The owner supplied October 4, 2026 as the launch date and International Futures Trust Foundation as the funder. Add the foundation's public reference when supplied. Do not invent registration numbers, clinical approval, or accreditation.
+5. Keep public product facts accurate. Do not invent registration numbers, clinical approval, or accreditation.
 
 Google Scholar is for scholarly literature. These product and study-workflow articles should use ordinary web indexing, not metadata that misrepresents them as research papers.
 
